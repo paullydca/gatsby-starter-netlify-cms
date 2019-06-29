@@ -109,8 +109,7 @@ export default class Index extends React.Component {
                   </button>
                 </div>
               </form></div>
-  <div class="column">2</div>
-  <div class="column">3</div>
+  <div class="column"></div>
 </div>
               
             </div>
