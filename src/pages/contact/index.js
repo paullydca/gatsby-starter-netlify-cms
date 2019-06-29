@@ -39,9 +39,11 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Say Hi</h1>>
-              <p>Incase you have questions about our services, or need general support. We’re here. Simply fill out the form below.</p>
-              <form
+              <h1>Say Hi</h1>
+              <p>Incase you have questions about our services, or need general support. We’re here.<br /> Simply fill out the form below.</p>
+              <div class="columns">
+                <div class="column">
+                <form
                 name="contact"
                 method="post"
                 action="/contact/thanks/"
@@ -106,7 +108,11 @@ export default class Index extends React.Component {
                     Send
                   </button>
                 </div>
-              </form>
+              </form></div>
+  <div class="column">2</div>
+  <div class="column">3</div>
+</div>
+              
             </div>
           </div>
         </section>
